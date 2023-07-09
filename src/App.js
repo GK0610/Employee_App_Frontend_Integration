@@ -14,7 +14,7 @@ function App() {
               Employee Dashboard
             </Typography>
             <Button color="inherit" href="/Employee_App_Frontend_Integration">Home</Button>
-            <Button color="inherit">Employee Form<Link to="/employee-form"/></Button>
+            <Button color="inherit">Employee Form<Link to="/employee-form"></Link></Button>
           </Toolbar>
         </AppBar>
 
