@@ -1,10 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { AppBar, Toolbar, Typography, Button } from '@mui/material';
-import EmployeeForm from './components/EmployeeForm';
-import EmployeeList from './components/EmployeeList';
+import { AppBar, Button, Toolbar, Typography } from '@mui/material';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import EmployeeForm from './EmployeeForm';
+import EmployeeList from './EmployeeList';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div>
@@ -13,8 +12,12 @@ function App() {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Employee Dashboard
             </Typography>
-            <Button color="inherit" href="/Employee_App_Frontend_Integration">Home</Button>
-            <Button color="inherit"><Link to="/employee-form">Employee Form</Link></Button>
+            <Button color="inherit" href="/Employee_App_Frontend_Integration">
+              Home
+            </Button>
+            <Button color="inherit" href="#/employee-form">
+              Employee Form
+            </Button>
           </Toolbar>
         </AppBar>
 
@@ -28,4 +31,3 @@ function App() {
 }
 
 export default App;
-// HMM
