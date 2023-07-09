@@ -8,7 +8,7 @@ const App = () => {
       <div>
         <AppBar position="static">
           <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> 
               Employee Dashboard
             </Typography>
             <Button color="inherit" href="#/Employee_App_Frontend_Integration">
