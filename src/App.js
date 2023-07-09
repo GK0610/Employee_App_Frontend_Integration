@@ -14,12 +14,12 @@ function App() {
               Employee Dashboard
             </Typography>
             <Button color="inherit" href="/Employee_App_Frontend_Integration">Home</Button>
-            <Button color="inherit" href="Employee_App_Frontend_Integration/employee-form">Employee Form</Button>
+            <Button color="inherit" href="/employee-form">Employee Form</Button>
           </Toolbar>
         </AppBar>
 
         <Routes>
-          <Route path="/employee-form" element={<EmployeeForm />} />
+          <Route path="Employee_App_Frontend_Integration/employee-form" element={<EmployeeForm />} />
           <Route path="/Employee_App_Frontend_Integration" element={<EmployeeList />} />
         </Routes>
       </div>
