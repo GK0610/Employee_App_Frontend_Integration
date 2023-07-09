@@ -1,8 +1,7 @@
 import { AppBar, Button, Toolbar, Typography } from '@mui/material';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import EmployeeForm from './EmployeeForm';
-import EmployeeList from './EmployeeList';
-
+import EmployeeForm from './components/EmployeeForm';
+import EmployeeList from './components/EmployeeList';
 const App = () => {
   return (
     <Router>
