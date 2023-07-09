@@ -19,7 +19,7 @@ function App() {
         </AppBar>
 
         <Routes>
-          <Route path="/employee-form" element={<EmployeeForm />} />
+          <Route path="#/employee-form" element={<EmployeeForm />} />
           <Route path="/Employee_App_Frontend_Integration" element={<EmployeeList />} />
         </Routes>
       </div>
