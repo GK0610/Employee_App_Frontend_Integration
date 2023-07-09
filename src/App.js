@@ -11,7 +11,7 @@ const App = () => {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Employee Dashboard
             </Typography>
-            <Button color="inherit" href="/Employee_App_Frontend_Integration">
+            <Button color="inherit" href="#/Employee_App_Frontend_Integration">
               Home
             </Button>
             <Button color="inherit" href="#/employee-form">
