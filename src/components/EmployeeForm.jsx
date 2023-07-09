@@ -60,7 +60,6 @@ function EmployeeForm() {
           Submit
         </Button>
       </form>
-      return <h1>Employee Form</h1>;
     </div>
     
   );
