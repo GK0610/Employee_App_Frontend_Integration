@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import EmployeeForm from './components/EmployeeForm';
 import EmployeeList from './components/EmployeeList';
@@ -14,7 +14,7 @@ function App() {
               Employee Dashboard
             </Typography>
             <Button color="inherit" href="/Employee_App_Frontend_Integration">Home</Button>
-            <Button color="inherit" LinkComponent={EmployeeForm}>Employee Form</Button>
+            <Button color="inherit">Employee Form<Link to="/employee-form"/></Button>
           </Toolbar>
         </AppBar>
 
@@ -28,4 +28,3 @@ function App() {
 }
 
 export default App;
-// hmm
